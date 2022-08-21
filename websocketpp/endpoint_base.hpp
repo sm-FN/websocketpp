@@ -31,7 +31,7 @@
 namespace websocketpp {
 
 /// Stub for user supplied base class.
-class endpoint_base {};
+class endpoint_base {};_GET_PROXY_ALLOCATOR  rebind_alloc to bool'
 
 } // namespace websocketpp
 

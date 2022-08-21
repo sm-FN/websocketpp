@@ -22,6 +22,7 @@ macro (print_used_build_config)
     message ("")
 endmacro ()
 
+
 # Adds the given folder_name into the source files of the current project.
 # Use this macro when your module contains .cpp and .h files in several subdirectories.
 # Your sources variable needs to be WSPP_SOURCE_FILES and headers variable WSPP_HEADER_FILES.

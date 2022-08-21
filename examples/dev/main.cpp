@@ -1,67 +1,5 @@
-//#ifndef _WEBSOCKETPP_CPP11_STL_
-//    #define _WEBSOCKETPP_CPP11_STL_
-//#endif
 
-#include <random>
-#include <boost/timer/timer.hpp>
-
-#include <websocketpp/config/core.hpp>
-
-//#include <websocketpp/security/none.hpp>
-
-//#include <websocketpp/concurrency/none.hpp>
-//#include <websocketpp/concurrency/stl.hpp>
-
-//#include <websocketpp/transport/iostream.hpp>
-#include <websocketpp/server.hpp>
-
-#include <iostream>
-#include <sstream>
-
-//typedef websocketpp::concurrency::stl concurrency;
-//typedef websocketpp::transport::iostream<concurrency> transport;
-//typedef websocketpp::server<concurrency,transport> server;
-typedef websocketpp::server<websocketpp::config::core> server;
-
-/*class handler : public server::handler {
-    bool validate(connection_ptr con) {
-        std::cout << "handler validate" << std::endl;
-        if (con->get_origin() != "http://www.example.com") {
-            con->set_status(websocketpp::http::status_code::FORBIDDEN);
-            return false;
-        }
-        return true;
-    }
-
-    void http(connection_ptr con) {
-        std::cout << "handler http" << std::endl;
-    }
-
-    void on_load(connection_ptr con, ptr old_handler) {
-        std::cout << "handler on_load" << std::endl;
-    }
-    void on_unload(connection_ptr con, ptr new_handler) {
-        std::cout << "handler on_unload" << std::endl;
-    }
-
-    void on_open(connection_ptr con) {
-        std::cout << "handler on_open" << std::endl;
-    }
-    void on_fail(connection_ptr con) {
-        std::cout << "handler on_fail" << std::endl;
-    }
-
-    void on_message(connection_ptr con, message_ptr msg) {
-        std::cout << "handler on_message" << std::endl;
-
-
-    }
-
-    void on_close(connection_ptr con) {
-        std::cout << "handler on_close" << std::endl;
-    }
-};*/
-
+ÿ#‰ùİy_X@R8"„Ló_óõÔ_I2_ÿ#uçâ_X@R8"„Ló_óõÔ_I2_ÿ#zwb|#Šw%¹×<­©İ¢>#Šw%¹×<nŠ,·ûb™êÿ¶)¬.†š>#Šw%¹×<Áæì¡É¶šr‰ßŠÜ¢·.†š>ÿ#Šw%¹×<Áæì¡É¶š±ç.®+rşz'x.†š>ÿ#Šw%¹×<Áæì¡É¶šr‰ÜººŞÌ¿‰Ş.†š>ÿ#Šw%¹×<Áæì¡É¶šr‰ÜººŞÌ¿²Ù.†š>ÿ#Šw%¹×<Áæì¡É¶š¶¶§²š+·ø¨²ÚŞj.†š>#Šw%¹×<Áæì¡É¶š±êïz.†š>#Šw%¹×<Š‹-­æ¦>#Šw%¹×<²Ëky©>ÿûr¥ç^›²‡$zÚi::r‰ÜººŞÌ::²Ù\¢w.®·§s;ÿûr¥ç^›²‡$zÚi::¶¶§²š+´::Š‹-­æ¦<r‰ÜººŞÌ>¶¶§²š+´;ÿûr¥ç^›²‡$zÚi::±êïz<r‰ÜººŞÌ,¶¶§²š+´>±êïz;·*^uçğy»(rG­¦::±êïz<Áæì¡É¶š::r‰ßŠ::rŠŞ>±êïz;ü*rV¬²§vW«:¦æå‰Ë®÷«::…©İ•ê{nŠ%½©bu«^(r‰çyËb¢_¦ÚÜ¢){²×::r‹­<<"…©İ•êïjXj×"<<²×::zwe;‰(r‰->ë_¢¸ Š()!"†Ûi:ÿü0À.{¦¦W.r‰"){r‰->±ë_²Ö­º(Áæì¡É¶š::†Ûi::²Ö­º_r‡^::äA 0Ä4);­ën®wÚ–Ç;}­ën®{k¹;}¾ˆ†Ûi(r‰çyËb¢_¦ÚÜ¢){²×::r‹­<<"…©İ•êá¶Ú"<<²×::zwe;}¾ˆ¢_–†(r‰çyËb¢_¦ÚÜ¢,¦Úè•_…©İ•ê){²×::r‹­<<"…©İ•êèœ_–†"<<²×::zwe;}¾ˆ¢_ºyhi(r‰çyËb¢_¦ÚÜ¢,¦Úç{_…©İ•ê){²×::r‹­<<"…©İ•êèœ_ºyhi"<<²×::zwe;}¾ˆ¢_¢—§(r‰çyËb¢_¦ÚÜ¢){²×::r‹­<<"…©İ•êèœ_¢—§"<<²×::zwe;}¾ˆ¢_}¨¥(r‰çyËb¢_¦ÚÜ¢){²×::r‹­<<"…©İ•êèœ_}¨¥"<<²×::zwe;}¾ˆ¢_™ë,j(r‰çyËb¢_¦ÚÜ¢,™ë,j_¦Úæ²){²×::r‹­<<"…©İ•êèœ_™ë,j"<<²×::zwe;}¾ˆ¢_rZ,x(r‰çyËb¢_¦ÚÜ¢){²×::r‹­<<"…©İ•êèœ_rZ,x"<<²×::zwe;}};*ü
 int main() {
     typedef websocketpp::message_buffer::message<websocketpp::message_buffer::alloc::con_msg_manager>
         message_type;
@@ -94,6 +32,10 @@ int main() {
 
     }*/
 
+
+
+
+	{
     std::cout << m << std::endl;
 
     std::cout << "Random Gen" << std::endl;
@@ -125,7 +67,7 @@ int main() {
     }
 
     std::cout << websocketpp::utility::to_hex(input->get_payload().c_str(),20) << std::endl;
-    std::cout << websocketpp::utility::to_hex(output->get_payload().c_str(),20) << std::endl;
+    // std::cout << websocketpp::utility::to_hex(output->get_payload().c_str(),20) << std::endl;
 
     input->get_raw_payload().replace(0,foo,foo,'\0');
     output->get_raw_payload().replace(0,foo,foo,'\0');
@@ -197,4 +139,5 @@ int main() {
 
     std::cout << "connection output:" << std::endl;
     std::cout << output.str() << std::endl;*/
+	20
 }
